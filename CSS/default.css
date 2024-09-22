@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p.Margen{
+    margin: 35px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: 45px;
+}
+
+p.Padding{
+    border: 1px solid rgb(102, 107, 232);
+
+    background-color: rgb(178, 225, 242);
+    padding: 30px;
+    text-align: center;
+}
+
+p.Border{
+    border: 2px double lightblue;
+    text-align: center;
+}
+
+p.Position{
+    position: relative;
+    left: 30%;
+    top: 20px;
+}
+
+img{
+    float: right;
+    padding: 8px;
+    margin: 0px 14px 3px 0px;
+}
+p.float{
+    margin-bottom: 14px;
+    text-align: justify;
+}
+
+p.Clear{
+    color: red;
+    display: block;
+}
+
+div.Overflow{
+    background-color: antiquewhite;
+    width: 110px;
+    height: 110px;
+    overflow: scroll;
+    text-align: center;
+}
+
+p.Visibility{
+    visibility: hidden;
+}
